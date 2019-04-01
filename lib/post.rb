@@ -7,11 +7,14 @@ class Post
   end
   
   def self.all
-    @all
+    @@all
   end
   
   def title(new_title)
     self.title.new_title
   end
+  
+  def author 
+    self.author.name
   
 end
