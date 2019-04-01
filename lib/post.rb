@@ -6,5 +6,12 @@ class Post
     @@all << self
   end
   
-  def author
+  def self.all
+    @all
+  end
+  
+  def title
+    self.title
+  end
+  
 end
