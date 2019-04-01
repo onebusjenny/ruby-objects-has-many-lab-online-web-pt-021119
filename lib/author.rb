@@ -7,7 +7,7 @@ class Author
   end
   
   def posts
-    @posts = posts
+    @posts 
   end
   
   def add_post(new_post)
