@@ -10,8 +10,8 @@ class Post
     @all
   end
   
-  def title
-    self.title
+  def title(new_title)
+    self.title.new_title
   end
   
 end
