@@ -12,6 +12,7 @@ class Author
   
   def add_post(new_post)
     @post << new_post
+    
   end
   
 end
