@@ -10,18 +10,6 @@ class Post
     @@all
   end
   
-  def author 
-    self.author.name
-  end
-end
-
-class Post
-
-  attr_accessor :title, :author
-  def initialize(title)
-    @title = title
-  end
-
   def author_name
     if @author == nil
       return nil
@@ -30,3 +18,4 @@ class Post
     end
   end
 end
+
